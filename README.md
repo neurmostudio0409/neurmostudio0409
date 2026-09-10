@@ -5,6 +5,8 @@
   <a href="./README.en.md">English</a>
 </div>
 
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
+
 <!-- 注意：以下「經歷／學歷」為暫定草稿內容，正式發佈前請自行核對修正 -->
 
 <div align="center">
