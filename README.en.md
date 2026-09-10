@@ -8,10 +8,6 @@
 <!-- NOTE: the Experience / Education entries below are draft placeholders — verify before relying on them. -->
 
 <div align="center">
-  <img src="./Media/logo.gif" width="150px" alt="NeurmoAI">
-</div>
-
-<div align="center">
   <img src="./Media/banner.svg" width="100%" alt="NeurmoAI — AI Generation Platform Engineer · Full Stack · ComfyUI / Plugin Ecosystem · XR">
 </div>
 
@@ -82,7 +78,6 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 ### ComfyUI Custom Nodes
 
 - [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM), [ComfyUI-Grok-NM](https://github.com/neurmostudio0409/ComfyUI-Grok-NM), [ComfyUI-ATEN-NM](https://github.com/neurmostudio0409/ComfyUI-ATEN-NM), [ComfyUI-Muse-NM](https://github.com/neurmostudio0409/ComfyUI-Muse-NM), [ComfyUI-voai-NM](https://github.com/neurmostudio0409/ComfyUI-voai-NM), [ComfyUI-replicate-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-api-NM), [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM).
-- [Yusu-WhatDreamsCost-ComfyUI](https://github.com/neurmostudio0409/Yusu-WhatDreamsCost-ComfyUI): enhanced LTX Director timeline — transition control, audio/image/video arrangement, duration editing, media sync, and trimming.
 
 ### Healthcare Deployment (NMRehab)
 
@@ -95,7 +90,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 
 - Unity VR applications and 3D asset tooling (VRJump series, Flac3DXR).
 - Taiwanese Hokkien TTS research: VibeVoice and Coqui-TTS localization training.
-- Developer tooling: [ponytail](https://github.com/neurmostudio0409/ponytail) (engineering-judgment guidelines for AI agents), soplint, and a self-hosted Redmine + GitLab NAS environment.
+- Developer tooling and infrastructure: soplint static analysis, and a self-hosted Redmine + GitLab + NAS engineering environment.
 
 ---
 
@@ -150,10 +145,8 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 | **NMGenAI** | Multi-tenant AI generation platform, plugin marketplace, MCP Server, RBAC and audit | Django, React, TypeScript, ComfyUI, Keycloak, PostgreSQL |
 | **NMRehab** | Long-term maintenance and security hardening of a live medical application | FastAPI, MySQL, ComfyUI, Docker |
 | **neurmo.co** | Corporate site and CMS routing architecture (zero compute on the front end, routed to the generation backend) | Next.js, Payload CMS, PostgreSQL, i18n |
-| [Yusu-WhatDreamsCost-ComfyUI](https://github.com/neurmostudio0409/Yusu-WhatDreamsCost-ComfyUI) | Deep ComfyUI frontend node work and timeline editing | JavaScript, ComfyUI, litegraph |
 | [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM) | Third-party generation APIs integrated as nodes | Python, ComfyUI |
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | Lipsync generation pipeline integration | Python, Replicate API |
-| [ponytail](https://github.com/neurmostudio0409/ponytail) | Behavior design and engineering-judgment guidelines for AI agents | JavaScript, Agent Skills |
 | **Taigi TTS** | Taiwanese Hokkien speech synthesis training and evaluation | Python, PyTorch |
 
 ---

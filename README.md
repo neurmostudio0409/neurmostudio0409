@@ -8,10 +8,6 @@
 <!-- 注意：以下「經歷／學歷」為暫定草稿內容，正式發佈前請自行核對修正 -->
 
 <div align="center">
-  <img src="./Media/logo.gif" width="150px" alt="NeurmoAI">
-</div>
-
-<div align="center">
   <img src="./Media/banner.svg" width="100%" alt="NeurmoAI — AI 生成平台工程師 · 全端 · ComfyUI／外掛生態 · XR">
 </div>
 
@@ -82,7 +78,6 @@
 ### ComfyUI 自訂節點
 
 - [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM)、[ComfyUI-Grok-NM](https://github.com/neurmostudio0409/ComfyUI-Grok-NM)、[ComfyUI-ATEN-NM](https://github.com/neurmostudio0409/ComfyUI-ATEN-NM)、[ComfyUI-Muse-NM](https://github.com/neurmostudio0409/ComfyUI-Muse-NM)、[ComfyUI-voai-NM](https://github.com/neurmostudio0409/ComfyUI-voai-NM)、[ComfyUI-replicate-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-api-NM)、[ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM)。
-- [Yusu-WhatDreamsCost-ComfyUI](https://github.com/neurmostudio0409/Yusu-WhatDreamsCost-ComfyUI)：LTX Director 時間軸強化 — 轉場控制、音訊／影像／影片排列、時長編輯、媒體同步與裁切。
 
 ### 醫療照護場域落地（NMRehab）
 
@@ -95,7 +90,7 @@
 
 - Unity VR 應用與 3D 資產工具鏈（VRJump 系列、Flac3DXR）。
 - 台語 TTS 研究：VibeVoice 與 Coqui-TTS 在地化訓練。
-- 開發者工具：[ponytail](https://github.com/neurmostudio0409/ponytail)（AI agent 工程判斷準則）、soplint，以及自架 Redmine + GitLab NAS 研發環境。
+- 開發者工具與研發基礎設施：soplint 靜態檢查工具，以及自架 Redmine + GitLab + NAS 研發環境。
 
 ---
 
@@ -150,10 +145,8 @@
 | **NMGenAI** | 多租戶 AI 生成平台、外掛市集、MCP Server、RBAC 與稽核 | Django, React, TypeScript, ComfyUI, Keycloak, PostgreSQL |
 | **NMRehab** | 已上線醫療應用之長期維運與資安強化 | FastAPI, MySQL, ComfyUI, Docker |
 | **neurmo.co** | 企業官網與 CMS 導流架構（前台零算力負擔，導向生成後端） | Next.js, Payload CMS, PostgreSQL, i18n |
-| [Yusu-WhatDreamsCost-ComfyUI](https://github.com/neurmostudio0409/Yusu-WhatDreamsCost-ComfyUI) | ComfyUI 前端節點深度改造與時間軸編輯 | JavaScript, ComfyUI, litegraph |
 | [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM) | 第三方生成 API 節點化整合 | Python, ComfyUI |
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | 口型同步生成管線整合 | Python, Replicate API |
-| [ponytail](https://github.com/neurmostudio0409/ponytail) | AI agent 行為設計與工程判斷準則 | JavaScript, Agent Skills |
 | **Taigi TTS** | 台語語音合成在地化訓練與評估 | Python, PyTorch |
 
 ---
