@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="NeurmoAI — AI Generation Platform Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="120" y1="0" x2="520" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="35%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+      <animate attributeName="x1" values="-380;1000" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="20;1400" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="800" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="blobA">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobC">
+      <stop offset="0%" stop-color="#34d399" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7dd3fc" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="frame"><rect x="0" y="0" width="1000" height="280" rx="18"/></clipPath>
+
+    <clipPath id="typeClip">
+      <rect x="130" y="176" height="26" width="0">
+        <animate attributeName="width" values="0;0;640;640;640;0" keyTimes="0;0.06;0.45;0.9;0.97;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <style>
+      .pulse  { animation: pulse 3.6s ease-in-out infinite; }
+      .pulse2 { animation: pulse 3.6s ease-in-out infinite; animation-delay: -1.8s; }
+      .rise   { animation: rise 7s ease-in-out infinite; }
+      .rise2  { animation: rise 9s ease-in-out infinite; animation-delay: -3s; }
+      .blink  { animation: blink 1s steps(1) infinite; }
+      .chip   { animation: chip 6s ease-in-out infinite; }
+      .c2 { animation-delay: -.6s } .c3 { animation-delay: -1.2s }
+      .c4 { animation-delay: -1.8s } .c5 { animation-delay: -2.4s }
+      .c6 { animation-delay: -3s }  .c7 { animation-delay: -3.6s }
+      @keyframes pulse { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+      @keyframes rise  { 0%,100% { transform: translate(0,0) } 50% { transform: translate(26px,-18px) } }
+      @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+      @keyframes chip  { 0%,100% { opacity:.62 } 50% { opacity:1 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+
+    <g filter="url(#soft)">
+      <circle class="rise pulse"  cx="180" cy="90"  r="120" fill="url(#blobA)"/>
+      <circle class="rise2 pulse2" cx="820" cy="205" r="140" fill="url(#blobB)"/>
+      <circle class="rise2 pulse"  cx="560" cy="40"  r="110" fill="url(#blobC)"/>
+    </g>
+
+    <!-- scanline sweep -->
+    <rect x="-260" y="0" width="220" height="280" fill="#ffffff" opacity=".045">
+      <animate attributeName="x" values="-260;1060" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- title -->
+    <g>
+      <text x="500" y="118" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+            font-size="66" font-weight="700" letter-spacing="6" fill="url(#sweep)" filter="url(#glow)" opacity=".75">NEURMO AI</text>
+      <text x="500" y="118" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+            font-size="66" font-weight="700" letter-spacing="6" fill="url(#sweep)">NEURMO AI</text>
+    </g>
+
+    <rect x="200" y="138" width="600" height="2" fill="url(#rule)" class="pulse"/>
+
+    <!-- typing subtitle -->
+    <g clip-path="url(#typeClip)">
+      <text x="140" y="196" font-family="'Cascadia Code','Consolas','SF Mono',monospace"
+            font-size="19" fill="#9fe8ff">AI Generation Platform · ComfyUI · Plugin Ecosystem · XR</text>
+    </g>
+    <rect class="blink" x="132" y="178" width="9" height="22" fill="#22d3ee">
+      <animate attributeName="x" values="132;132;772;772;772;132" keyTimes="0;0.06;0.45;0.9;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- tech chips -->
+    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#cbd5e1" text-anchor="middle">
+      <g class="chip">    <rect x="182" y="224" width="86"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#22d3ee" stroke-opacity=".35"/><text x="225" y="243">Python</text></g>
+      <g class="chip c2"> <rect x="278" y="224" width="86"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#22d3ee" stroke-opacity=".35"/><text x="321" y="243">Django</text></g>
+      <g class="chip c3"> <rect x="374" y="224" width="78"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#a78bfa" stroke-opacity=".35"/><text x="413" y="243">React</text></g>
+      <g class="chip c4"> <rect x="462" y="224" width="92"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#a78bfa" stroke-opacity=".35"/><text x="508" y="243">FastAPI</text></g>
+      <g class="chip c5"> <rect x="564" y="224" width="100" height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#f0abfc" stroke-opacity=".35"/><text x="614" y="243">ComfyUI</text></g>
+      <g class="chip c6"> <rect x="674" y="224" width="74"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#34d399" stroke-opacity=".35"/><text x="711" y="243">Unity</text></g>
+      <g class="chip c7"> <rect x="758" y="224" width="84"  height="28" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#34d399" stroke-opacity=".35"/><text x="800" y="243">Docker</text></g>
+    </g>
+
+    <rect x="1" y="1" width="998" height="278" rx="18" fill="none" stroke="#22d3ee" stroke-opacity=".22"/>
+  </g>
+</svg>
