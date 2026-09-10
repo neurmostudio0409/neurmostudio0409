@@ -98,7 +98,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 
 ## Experience
 
-### Neurmo Studio
+### Neurmo (智願科技)
 
 **Founder / Principal Engineer**
 **2023 - Present**
