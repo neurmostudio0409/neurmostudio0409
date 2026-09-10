@@ -26,7 +26,7 @@
   <a href="#fit">Roles</a>
 </div>
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="profile"></a>
 
@@ -41,7 +41,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 
 **Email:** neurmostudio@gmail.com　**Site:** [www.neurmo.co](https://www.neurmo.co/)　**GitHub:** [@neurmostudio0409](https://github.com/neurmostudio0409)　**Location:** Taiwan (remote-friendly)
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="value"></a>
 
@@ -55,7 +55,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 - Unity XR/VR application development and 3D asset tooling;
 - Localized speech research, including Taiwanese Hokkien TTS training and evaluation.
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="achievements"></a>
 
@@ -92,7 +92,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 - Taiwanese Hokkien TTS research: VibeVoice and Coqui-TTS localization training.
 - Developer tooling and infrastructure: soplint static analysis, and a self-hosted Redmine + GitLab + NAS engineering environment.
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="experience"></a>
 
@@ -134,7 +134,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 
 **Education:** <!-- TODO: school / major / years -->
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="projects"></a>
 
@@ -149,7 +149,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | Lipsync generation pipeline integration | Python, Replicate API |
 | **Taigi TTS** | Taiwanese Hokkien speech synthesis training and evaluation | Python, PyTorch |
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="stack"></a>
 
@@ -163,7 +163,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 **XR:** Unity, C#, VR/XR interaction and asset pipelines
 **Process:** Redmine + GitLab/GitHub, issue-per-branch, PR review, version tags and release notes
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="fit"></a>
 
@@ -175,7 +175,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 - **Legacy Takeover and Stabilization** — security remediation, containerization, migration governance, CI/CD adoption.
 - **Healthcare Deployment** — projects that must reach the institution floor and stay maintained there.
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=neurmostudio0409&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="stats">

@@ -26,7 +26,7 @@
   <a href="#fit">合作方向</a>
 </div>
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="profile"></a>
 
@@ -41,7 +41,7 @@
 
 **信箱：** neurmostudio@gmail.com　**網站：** [www.neurmo.co](https://www.neurmo.co/)　**GitHub：** [@neurmostudio0409](https://github.com/neurmostudio0409)　**地點：** 台灣（可遠端）
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="value"></a>
 
@@ -55,7 +55,7 @@
 - Unity XR／VR 應用開發與 3D 資產工具鏈；
 - 在地化語音技術研究，包含台語 TTS 訓練與評估。
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="achievements"></a>
 
@@ -92,7 +92,7 @@
 - 台語 TTS 研究：VibeVoice 與 Coqui-TTS 在地化訓練。
 - 開發者工具與研發基礎設施：soplint 靜態檢查工具，以及自架 Redmine + GitLab + NAS 研發環境。
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="experience"></a>
 
@@ -134,7 +134,7 @@
 
 **學歷：** <!-- 待補：學校 / 科系 / 年份 -->
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="projects"></a>
 
@@ -149,7 +149,7 @@
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | 口型同步生成管線整合 | Python, Replicate API |
 | **Taigi TTS** | 台語語音合成在地化訓練與評估 | Python, PyTorch |
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="stack"></a>
 
@@ -163,7 +163,7 @@
 **XR：** Unity, C#, VR/XR 互動與資產管線
 **流程：** Redmine + GitLab/GitHub、issue 對應分支、PR review、版本 tag 與 release notes
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <a id="fit"></a>
 
@@ -175,7 +175,7 @@
 - **Legacy 系統接手與穩定化** — 資安缺口修補、容器化、migration 治理與 CI/CD 導入。
 - **醫療照護場域落地** — 需要實際導入機構現場並長期維運的專案。
 
----
+<div align="center"><img src="./Media/divider.svg" width="100%" alt=""></div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=neurmostudio0409&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" height="150" alt="stats">
