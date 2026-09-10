@@ -39,7 +39,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 - **Plugins as products:** the architecture targets customers installing plugins from a package center to extend the system without recompiling; each plugin ships its own backend and frontend and moves across systems.
 - **Security first (SSDLC):** every change begins with an assessment of XSS / injection / access control / PII risk, tracked end to end through Redmine issues, PR review, version tags, and release notes.
 
-**Email:** neurmostudio@gmail.com　**Site:** [neurmo.co](https://neurmo.co)　**GitHub:** [@neurmostudio0409](https://github.com/neurmostudio0409)　**Location:** Taiwan (remote-friendly)
+**Email:** neurmostudio@gmail.com　**Site:** [www.neurmo.co](https://www.neurmo.co/)　**GitHub:** [@neurmostudio0409](https://github.com/neurmostudio0409)　**Location:** Taiwan (remote-friendly)
 
 ---
 
@@ -104,7 +104,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 **2023 - Present**
 
 - Led NMGenAI from the ground up: Django + React architecture, plugin marketplace, MCP Server, SSO and RBAC.
-- Owned neurmo.co and its CMS routing architecture — the public site carries no compute load and routes to the generation backend.
+- Owned www.neurmo.co and its CMS routing architecture — the public site carries no compute load and routes to the generation backend.
 - Drove generative AI workflows into healthcare settings, covering security auditing and production operations.
 - Stack: Python, Django, React/TypeScript, ComfyUI, Keycloak, PostgreSQL, Docker.
 
@@ -144,7 +144,7 @@ My work sits at the intersection of **generative AI platforms**, **plugin ecosys
 | --- | --- | --- |
 | **NMGenAI** | Multi-tenant AI generation platform, plugin marketplace, MCP Server, RBAC and audit | Django, React, TypeScript, ComfyUI, Keycloak, PostgreSQL |
 | **NMRehab** | Long-term maintenance and security hardening of a live medical application | FastAPI, MySQL, ComfyUI, Docker |
-| **neurmo.co** | Corporate site and CMS routing architecture (zero compute on the front end, routed to the generation backend) | Next.js, Payload CMS, PostgreSQL, i18n |
+| [www.neurmo.co](https://www.neurmo.co/) | Corporate site and CMS routing architecture (zero compute on the front end, routed to the generation backend) | Next.js, Payload CMS, PostgreSQL, i18n |
 | [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM) | Third-party generation APIs integrated as nodes | Python, ComfyUI |
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | Lipsync generation pipeline integration | Python, Replicate API |
 | **Taigi TTS** | Taiwanese Hokkien speech synthesis training and evaluation | Python, PyTorch |

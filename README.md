@@ -39,7 +39,7 @@
 - **外掛即商品**：架構目標為客戶自套件中心安裝外掛即可擴充功能，無須重新編譯；外掛自帶前後端、可跨系統搬移。
 - **資安優先（SSDLC）**：每項變更先評估 XSS／注入／存取控制／PII 風險，並以 Redmine issue、PR review、版本 tag 與 release notes 全程留痕。
 
-**信箱：** neurmostudio@gmail.com　**網站：** [neurmo.co](https://neurmo.co)　**GitHub：** [@neurmostudio0409](https://github.com/neurmostudio0409)　**地點：** 台灣（可遠端）
+**信箱：** neurmostudio@gmail.com　**網站：** [www.neurmo.co](https://www.neurmo.co/)　**GitHub：** [@neurmostudio0409](https://github.com/neurmostudio0409)　**地點：** 台灣（可遠端）
 
 ---
 
@@ -104,7 +104,7 @@
 **2023 - 現在**
 
 - 主導 NMGenAI 生成平台自零建置：Django + React 架構、外掛市集、MCP Server、SSO 與 RBAC。
-- 負責 neurmo.co 官網與 CMS 導流架構設計（官網不負擔算力，統一導向生成後端）。
+- 負責 www.neurmo.co 官網與 CMS 導流架構設計（官網不負擔算力，統一導向生成後端）。
 - 推動生成式 AI 工作流導入醫療照護場域，涵蓋資安稽核與正式環境維運。
 - 技術棧：Python, Django, React/TypeScript, ComfyUI, Keycloak, PostgreSQL, Docker。
 
@@ -144,7 +144,7 @@
 | --- | --- | --- |
 | **NMGenAI** | 多租戶 AI 生成平台、外掛市集、MCP Server、RBAC 與稽核 | Django, React, TypeScript, ComfyUI, Keycloak, PostgreSQL |
 | **NMRehab** | 已上線醫療應用之長期維運與資安強化 | FastAPI, MySQL, ComfyUI, Docker |
-| **neurmo.co** | 企業官網與 CMS 導流架構（前台零算力負擔，導向生成後端） | Next.js, Payload CMS, PostgreSQL, i18n |
+| [www.neurmo.co](https://www.neurmo.co/) | 企業官網與 CMS 導流架構（前台零算力負擔，導向生成後端） | Next.js, Payload CMS, PostgreSQL, i18n |
 | [ComfyUI-Veo-NM](https://github.com/neurmostudio0409/ComfyUI-Veo-NM) | 第三方生成 API 節點化整合 | Python, ComfyUI |
 | [ComfyUI-replicate-Lipsync-api-NM](https://github.com/neurmostudio0409/ComfyUI-replicate-Lipsync-api-NM) | 口型同步生成管線整合 | Python, Replicate API |
 | **Taigi TTS** | 台語語音合成在地化訓練與評估 | Python, PyTorch |
